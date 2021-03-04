@@ -1,7 +1,3 @@
-// This file is part of www.nand2tetris.org
-// and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
-// File name: projects/01/And.hdl
 
 /**
  * And gate: 
@@ -9,10 +5,16 @@
  *       0 otherwise
  */
 
+/*
+Nand(a, b) = Nota Or Notb
+Nand( Nand(a, b), Nand(a, b) ) = a And b
+*/
+
 CHIP And {
     IN a, b;
     OUT out;
 
     PARTS:
-    // Put your code here:
+    Nand (a=a, b=b, out=nandab);
+    Nand (a=nandab, b=nandab, out=out);
 }
