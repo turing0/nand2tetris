@@ -6,3 +6,9 @@
 
 文件和软件下载 [Download the Nand2tetris Software Suite](https://drive.google.com/open?id=1xZzcMIUETv3u3sdpM_oTJSTetpVee3KZ) Version 2.6 (about 730K).
 
+PDF：
+[The Elements of Computing Systems](https://github.com/turing0/nand2tetris/blob/main/pdf/The Elements of Computing Systems.pdf) 
+[计算机系统要素：从零开始构建现代计算机](https://github.com/turing0/nand2tetris/blob/main/pdf/计算机系统要素：从零开始构建现代计算机.pdf)
+
+
+
