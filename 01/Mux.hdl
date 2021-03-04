@@ -1,7 +1,3 @@
-// This file is part of www.nand2tetris.org
-// and the book "The Elements of Computing Systems"
-// by Nisan and Schocken, MIT Press.
-// File name: projects/01/Mux.hdl
 
 /** 
  * Multiplexor:
@@ -14,5 +10,10 @@ CHIP Mux {
     OUT out;
 
     PARTS:
-    // Put your code here:
+    Not (in=sel, out=notsel);
+
+    And (a=a, b=notsel, out=leftor);
+    And (a=b, b=sel, out=rightor);
+    
+    Or (a=leftor, b=rightor, out=out);
 }
