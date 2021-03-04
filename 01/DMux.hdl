@@ -5,6 +5,10 @@
  *          {0, in} if sel == 1
  */
 
+/*
+a = in And Not(sel)
+b = in And sel
+*/
 CHIP DMux {
     IN in, sel;
     OUT a, b;
