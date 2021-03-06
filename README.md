@@ -25,6 +25,3 @@ PDF：
 Coursera 在线课程:
  [构建现代计算机：从与非门到俄罗斯方块 Part1](https://www.coursera.org/learn/build-a-computer)   [构建现代计算机: 从与非门到俄罗斯方块 Part2](https://www.coursera.org/learn/nand2tetris2) 
 
-
-Coursera 在线课程:
- [构建现代计算机：从与非门到俄罗斯方块 Part1](https://www.coursera.org/learn/build-a-computer)   [构建现代计算机: 从与非门到俄罗斯方块 Part2](https://www.coursera.org/learn/nand2tetris2) 
